@@ -1,7 +1,7 @@
 # CODE-KATA-Shopping-Cart
 This program gives the total price of the items inputted by users as a String.
 The item list includes: A, B, C, D.
-The user must enter the items as one string (no whitespaces allows), and in capital letters. Also, the user must only enter the items which are currently available in the supermarket, otherwise exceptions will be raised.
+The user must enter the items as one string (no whitespaces allowed), and using only capital letters. Also, the user must only enter the items which are currently available in the supermarket. If any of these conditions are not satisfied - the exceptions will be raised.
 
 The code is thoroughly tested for edge cases which can be found in the 'test' folder. The code is implemented with the re-usability in mind, so in case new items/new offers are added to the supermarket, they can just simply be added into the map, without adjusting the logic of the code.
 
